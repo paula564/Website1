@@ -1,0 +1,24 @@
+form {
+  display: flex;
+
+  flex-direction: column;
+}
+
+label,
+p {
+  padding-block: 0.5em;
+}
+
+input {
+  border-radius: 10px;
+
+  border: 2px solid var(--purple);
+
+  padding: 0.5em;
+}
+
+fieldset {
+  border: 2px solid var(--purple);
+}
+
+/*ask marissa and check lab how to make radio buttons to the left*/
